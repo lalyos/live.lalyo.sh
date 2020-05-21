@@ -14,6 +14,7 @@ replace-yt-link(){
 
 git-push() {
     debug press ENTER to proceed ...
+    read xxx
     git commit --amend -a -C HEAD
     git push origin HEAD -f
 }
